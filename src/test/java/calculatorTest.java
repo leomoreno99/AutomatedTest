@@ -14,19 +14,19 @@ public class calculatorTest {
 	
 	@Test
 	public void addTwoNumbers() {
-		assertEquals(20, calc.add(11, 10));
+		assertEquals(20, calc.add(10, 10));
 		
 	}
 
 	@Test
 	public void addThreeNumbers() {
-		assertEquals(20, calc.add(5, 5, 10));
+		assertEquals(20, calc.add(5, 6, 10));
 		
 	}
 
 	@Test
 	public void subtractTwoNumbers() {
-		assertEquals(0, calc.subtract(10, 10));
+		assertEquals(0, calc.subtract(12, 10));
 		
 	}
 
